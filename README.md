@@ -17,8 +17,6 @@ php5fpm_max_requests: 2000
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
       roles:
          - { role: sparkfabrik.php5-fpm, php5fpm_max_children: 10, php5fpm_start_servers: 4, php5fpm_min_spare_servers:2, php5fpm_max_spare_servers:6, php5fpm_max_spare_servers:2000 }
